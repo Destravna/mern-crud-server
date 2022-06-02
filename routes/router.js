@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const User = require("../model/userSchema");
 router.get("/", async(req, res)=>{
-    res.send("don't worry Imma working hard");
+    res.send("Server Running Properly");
 });
 
 router.post("/register", async(req, res)=>{

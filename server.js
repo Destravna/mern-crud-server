@@ -18,6 +18,6 @@ app.use(cors());
 
 app.use(router);
 
-app.listen(process.env.PORT, ()=>{
+app.listen(port, ()=>{
     console.log("Started server at port " + port);
 })
